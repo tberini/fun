@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+import skilstak.colors as c
+
+for i in range(1,12):
+    print(c.multi(" badgers"))
