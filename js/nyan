@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+'use strict'
+
+var c = require("skilstak-colors")
+
+while (true) {
+  //console.log(c.rc() + ("Nyan"));
+  process.stdout.write(c.rc() + ("Nyan") + " ");
+}
