@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+
+from random import randrange
+
+total = 0
+for n in range(3):
+    side = randrange(1,6)
+    print("You rolled a ", side)
+    total += side
+
+print("Total: ", total)
